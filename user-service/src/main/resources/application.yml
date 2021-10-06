@@ -1,0 +1,12 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: USER-SERVICE
+  cloud:
+    config:
+      import-check:
+        enabled: false
+  zipkin:
+    base-url: http://127.0.0.1:9411/
